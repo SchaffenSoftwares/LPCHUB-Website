@@ -1,0 +1,272 @@
+body
+{
+    font-family: "Montserrat";
+}
+
+a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+.logo {
+    margin: 0;
+    font-size: 1.45em;
+  }
+
+  .main-nav {
+    margin-top: 5px;
+  }
+  .logo a,
+  .main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+  }
+
+  .main-nav a {
+    color: #34495e;
+    font-size: 0.99em;
+  }
+
+  .main-nav a:hover {
+    color: #718daa;
+  }
+
+  .header {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: 1px solid #a2a2a2;
+    background-color: #f4f4f4;   /* #cae8d5;*/
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+  }
+
+  /* =================================
+    Media Queries
+  ==================================== */
+
+  @media (min-width: 769px) {
+    .header,
+    .main-nav {
+      display: flex;
+    }
+    .header {
+      flex-direction: column;
+      align-items: center;
+      .header {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1150px;
+      }
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  .lpclogo {
+      height: 65px;
+      width : 250px;
+  }
+  .lpclogo1 {
+       height : 65px;
+       width : 60px;
+       padding-bottom: 10px;
+  }
+
+  
+
+  .w3hubs-footer{
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	background: #272727;
+	padding: 20px 0px;
+
+}
+
+.w3hubs-nav{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 25px;
+}
+.w3hubs-nav ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+
+.w3hubs-nav ul li{
+	display: inline-block;
+	margin: 10px 20px;
+}
+.w3hubs-nav ul li a{
+	text-decoration: none;
+	outline: none;
+	font-family: 'Roboto Slab', serif;
+	font-size: 13px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.w3hubs-nav ul li a:hover{
+	color:  #e67e22;
+}
+
+.w3hubs-nav1{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 15px;
+}
+.w3hubs-nav1 ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+
+.w3hubs-nav1 ul li{
+	display: inline-block;
+	margin: 0px 20px;
+}
+.w3hubs-nav1 ul li a{
+	text-decoration: none;
+	outline: none;
+	font-family: 'Roboto Slab', serif;
+	font-size: 13px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.w3hubs-nav1 ul li a:hover{
+	color:  #e67e22;
+}
+.w3hubs-nav2{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.w3hubs-nav2 ul{
+
+	text-align: center;
+}
+
+.w3hubs-nav2 ul li{
+
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 100%;
+	background:#fff;
+}
+.w3hubs-nav2 ul li a{
+	text-decoration: none;
+	color: #272727;
+	font-size: 13px;
+	display: block;
+}
+.w3hubs-nav2 ul li a i{
+	line-height: 50px;
+}
+.w3hubs-nav2 ul li:hover{
+	background: #e67e22;
+}
+.w3hubs-nav2 ul li a:hover >i{
+	transform: scale(1.6) rotate(180deg);
+}
+.footer-end{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: #7DCEA0;
+	padding: 10px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 13px;
+	text-align: center;
+}
+.footer-end p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 13px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 2px;
+
+}
+.footer-end a{
+
+text-decoration: none;
+color: #fff
+}
+.footer-end a:hover{
+	color:  #e67e22;
+}
+
+@media(max-width:691px ){
+.w3hubs-nav1 ul li a,.w3hubs-nav ul li a{
+	font-size: 16px;
+}
+}
+@media(max-width:604px ){
+.w3hubs-nav1 ul li a,.w3hubs-nav ul li a{
+	font-size: 14px;
+}
+.w3hubs-nav ul li{
+	padding: 0px ;
+}
+}
+@media(max-width:559px ){
+
+.w3hubs-nav1 ul li a,.w3hubs-nav ul li a{
+	font-size: 13px;
+}
+
+}
+@media(max-width:539px ){
+.w3hubs-nav1 ul li a,.w3hubs-nav ul li a{
+	font-size: 11px;
+}
+.w3hubs-nav ul li{
+	margin: 5px 20px;
+}
+.w3hubs-nav ul li.p1 {
+    padding-top: 10px;
+}
+}
+@media(max-width:380px ){
+	.w3hubs-nav ul li,.w3hubs-nav1 ul li{
+		display: block;
+		padding: 5px;
+	}
+.w3hubs-nav2 ul li{
+	display: none;
+}
+
+}
+@media(max-width: 375px){
+	.w3hubs-nav ul li.p1 {
+    padding-top: 0px;
+}
+}
+
