@@ -4,14 +4,17 @@
 # SchoolHub Website
 
 > <Subtitle>
-> Include project description here.
+> School hub is an app developed for school students. It's the goto place for everything for a school student and includes features like circulars and previos year papers, bunk zone, school stories and upcoming feautres like scooty pool and a lot more.
 
 ---
 [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
   [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](INSERT_UI_LINK_HERE)
 
 ## Features
-- Insert list of features here
+Circulars and previous year papers
+Bunk zone
+School stories
+Multiple themes
 
 ## Screenshots
 <img src="" alt="Project Screenshots">
@@ -27,9 +30,10 @@ $ python3 manage.py runserver
 ```
 
 ## Contributors
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
+- <a href="https://github.com/siddhanttk">Siddhant Khare</a>
+- <a href="https://github.com/<Contributor>">Ayushi keshari</a>
+- <a href="https://github.com/<Contributor>">Jaya Gupta</a>
+- <a href="https://github.com/<Contributor>">Pranjali Srivastava</a>
 
 ## License
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
