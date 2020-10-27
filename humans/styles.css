@@ -19,7 +19,6 @@ ul {
     margin: 0;
     font-size: 1.45em;
   }
-
   .main-nav {
     margin-top: 5px;
   }
@@ -30,7 +29,6 @@ ul {
     text-align: center;
     display: block;
   }
-
   .main-nav a {
     color: #34495e;
     font-size: 0.99em;
@@ -39,7 +37,7 @@ ul {
   .main-nav a:hover {
     color: #718daa;
   }
-
+  
   .header {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -51,12 +49,6 @@ ul {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-
-  }
-
-  /* =================================
-    Media Queries
-  ==================================== */
 
   @media (min-width: 769px) {
     .header,
@@ -92,15 +84,16 @@ ul {
 
 .container
 {
-    text-align: center;
+
     margin: 20px;
 }
 
 .box
 {
-    display: inline-block;
+    display: inline-block; 
     margin: 20px;
-    width: 350px;
+    width: 350px; 
+
     background-color: white;
     line-height: 1.5;
     font-size: 15px;
@@ -115,10 +108,12 @@ ul {
     color: #718daa;
   }
 
+  
 .story
 {
     animation: Slide_Up 2.0s ease;
-}
+}  
+
 
 @keyframes Slide_Up {
     0% {
